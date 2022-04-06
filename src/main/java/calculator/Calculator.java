@@ -112,7 +112,8 @@ public class Calculator {
         do {
 
 
-            System.out.print("Enter an operator \n 1. sqrt \n 2. factorial \n 3. log \n 4. power ");
+            System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial \n 3. log \n 4. power ");
+            System.out.println("Enter your choice(1-4)");
             char operator = scanner.next().charAt(0);
             //scanner.close();
             double output=0.0;

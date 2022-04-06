@@ -1,0 +1,236 @@
+2022-04-06 11:41:14.630 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:41:14.633 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:41:14.634 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:41:14.634 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:41:14.636 [main] INFO  calculator.Calculator - Calculating Square root  of number 9.0
+2022-04-06 11:41:14.636 [main] INFO  calculator.Calculator - Result of squareRoot is : 3.0
+2022-04-06 11:41:14.636 [main] INFO  calculator.Calculator - Calculating Square root  of number 16.0
+2022-04-06 11:41:14.637 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.0
+2022-04-06 11:41:14.637 [main] INFO  calculator.Calculator - Calculating Square root  of number -10.0
+2022-04-06 11:41:14.637 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:41:14.638 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:41:14.639 [main] INFO  calculator.Calculator - Calculating Natural log of 17.0
+2022-04-06 11:41:14.639 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.833213344056216
+2022-04-06 11:41:14.639 [main] INFO  calculator.Calculator - Calculating Natural log of 6.0
+2022-04-06 11:41:14.639 [main] INFO  calculator.Calculator - Result of naturalLog is : 1.791759469228055
+2022-04-06 11:41:14.640 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:41:14.640 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:41:14.641 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:41:14.641 [main] INFO  calculator.Calculator - Calculating Square root  of number 18.0
+2022-04-06 11:41:14.641 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.242640687119285
+2022-04-06 11:41:14.642 [main] INFO  calculator.Calculator - Calculating Square root  of number 32.0
+2022-04-06 11:41:14.642 [main] INFO  calculator.Calculator - Result of squareRoot is : 5.656854249492381
+2022-04-06 11:41:14.642 [main] INFO  calculator.Calculator - Calculating Square root  of number -16.0
+2022-04-06 11:41:14.642 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:41:14.642 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:41:14.643 [main] INFO  calculator.Calculator - Calculating Natural log of 14.0
+2022-04-06 11:41:14.643 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.6390573296152584
+2022-04-06 11:41:14.643 [main] INFO  calculator.Calculator - Calculating Natural log of 9.0
+2022-04-06 11:41:14.643 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.1972245773362196
+2022-04-06 11:41:14.644 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:41:14.644 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:41:14.644 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:41:14.646 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:41:14.647 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:41:14.649 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:41:14.650 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:41:14.650 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if num is not an integer
+2022-04-06 11:41:14.650 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:41:14.670 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 3.0
+2022-04-06 11:41:14.671 [main] INFO  calculator.Calculator - Result of power is : 8.0
+2022-04-06 11:41:14.671 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:41:14.671 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:41:14.672 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 2.0
+2022-04-06 11:41:14.672 [main] INFO  calculator.Calculator - Result of power is : 4.0
+2022-04-06 11:41:14.672 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:41:14.673 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:43:51.502 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:43:51.505 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:43:51.506 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:43:51.506 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:43:51.508 [main] INFO  calculator.Calculator - Calculating Square root  of number 9.0
+2022-04-06 11:43:51.509 [main] INFO  calculator.Calculator - Result of squareRoot is : 3.0
+2022-04-06 11:43:51.509 [main] INFO  calculator.Calculator - Calculating Square root  of number 16.0
+2022-04-06 11:43:51.509 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.0
+2022-04-06 11:43:51.509 [main] INFO  calculator.Calculator - Calculating Square root  of number -10.0
+2022-04-06 11:43:51.510 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:43:51.510 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:43:51.511 [main] INFO  calculator.Calculator - Calculating Natural log of 17.0
+2022-04-06 11:43:51.512 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.833213344056216
+2022-04-06 11:43:51.512 [main] INFO  calculator.Calculator - Calculating Natural log of 6.0
+2022-04-06 11:43:51.512 [main] INFO  calculator.Calculator - Result of naturalLog is : 1.791759469228055
+2022-04-06 11:43:51.513 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:43:51.513 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:43:51.514 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:43:51.514 [main] INFO  calculator.Calculator - Calculating Square root  of number 18.0
+2022-04-06 11:43:51.514 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.242640687119285
+2022-04-06 11:43:51.515 [main] INFO  calculator.Calculator - Calculating Square root  of number 32.0
+2022-04-06 11:43:51.515 [main] INFO  calculator.Calculator - Result of squareRoot is : 5.656854249492381
+2022-04-06 11:43:51.515 [main] INFO  calculator.Calculator - Calculating Square root  of number -16.0
+2022-04-06 11:43:51.515 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:43:51.516 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:43:51.516 [main] INFO  calculator.Calculator - Calculating Natural log of 14.0
+2022-04-06 11:43:51.517 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.6390573296152584
+2022-04-06 11:43:51.519 [main] INFO  calculator.Calculator - Calculating Natural log of 9.0
+2022-04-06 11:43:51.519 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.1972245773362196
+2022-04-06 11:43:51.520 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:43:51.520 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:43:51.520 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:43:51.521 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:43:51.521 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:43:51.521 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:43:51.522 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:43:51.522 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if num is not an integer
+2022-04-06 11:43:51.522 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:43:51.531 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 3.0
+2022-04-06 11:43:51.532 [main] INFO  calculator.Calculator - Result of power is : 8.0
+2022-04-06 11:43:51.532 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:43:51.532 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:43:51.533 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 2.0
+2022-04-06 11:43:51.533 [main] INFO  calculator.Calculator - Result of power is : 4.0
+2022-04-06 11:43:51.534 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:43:51.535 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:50:44.081 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:50:44.085 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:50:44.086 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:50:44.087 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:50:44.089 [main] INFO  calculator.Calculator - Calculating Square root  of number 9.0
+2022-04-06 11:50:44.090 [main] INFO  calculator.Calculator - Result of squareRoot is : 3.0
+2022-04-06 11:50:44.091 [main] INFO  calculator.Calculator - Calculating Square root  of number 16.0
+2022-04-06 11:50:44.091 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.0
+2022-04-06 11:50:44.091 [main] INFO  calculator.Calculator - Calculating Square root  of number -10.0
+2022-04-06 11:50:44.092 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:50:44.092 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:50:44.093 [main] INFO  calculator.Calculator - Calculating Natural log of 17.0
+2022-04-06 11:50:44.094 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.833213344056216
+2022-04-06 11:50:44.094 [main] INFO  calculator.Calculator - Calculating Natural log of 6.0
+2022-04-06 11:50:44.094 [main] INFO  calculator.Calculator - Result of naturalLog is : 1.791759469228055
+2022-04-06 11:50:44.094 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:50:44.095 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:50:44.095 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:50:44.096 [main] INFO  calculator.Calculator - Calculating Square root  of number 18.0
+2022-04-06 11:50:44.096 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.242640687119285
+2022-04-06 11:50:44.096 [main] INFO  calculator.Calculator - Calculating Square root  of number 32.0
+2022-04-06 11:50:44.096 [main] INFO  calculator.Calculator - Result of squareRoot is : 5.656854249492381
+2022-04-06 11:50:44.097 [main] INFO  calculator.Calculator - Calculating Square root  of number -16.0
+2022-04-06 11:50:44.097 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:50:44.098 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:50:44.098 [main] INFO  calculator.Calculator - Calculating Natural log of 14.0
+2022-04-06 11:50:44.099 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.6390573296152584
+2022-04-06 11:50:44.099 [main] INFO  calculator.Calculator - Calculating Natural log of 9.0
+2022-04-06 11:50:44.099 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.1972245773362196
+2022-04-06 11:50:44.100 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:50:44.100 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:50:44.100 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:50:44.101 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:50:44.101 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:50:44.101 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:50:44.102 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:50:44.102 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if num is not an integer
+2022-04-06 11:50:44.102 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:50:44.114 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 3.0
+2022-04-06 11:50:44.115 [main] INFO  calculator.Calculator - Result of power is : 8.0
+2022-04-06 11:50:44.115 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:50:44.116 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:50:44.117 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 2.0
+2022-04-06 11:50:44.117 [main] INFO  calculator.Calculator - Result of power is : 4.0
+2022-04-06 11:50:44.118 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:50:44.118 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:55:50.724 [main] INFO  calculator.Calculator - Calculating Square root  of number 4.0
+2022-04-06 11:55:50.727 [main] INFO  calculator.Calculator - Result of squareRoot is : 2.0
+2022-04-06 11:56:40.533 [main] INFO  calculator.Calculator - Result of factorial is: 24.0
+2022-04-06 11:56:51.327 [main] INFO  calculator.Calculator - Result of factorial is: 2.0922789888E13
+2022-04-06 11:58:01.208 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:58:01.212 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:58:01.212 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:58:01.214 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:58:01.216 [main] INFO  calculator.Calculator - Calculating Square root  of number 9.0
+2022-04-06 11:58:01.217 [main] INFO  calculator.Calculator - Result of squareRoot is : 3.0
+2022-04-06 11:58:01.217 [main] INFO  calculator.Calculator - Calculating Square root  of number 16.0
+2022-04-06 11:58:01.217 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.0
+2022-04-06 11:58:01.218 [main] INFO  calculator.Calculator - Calculating Square root  of number -10.0
+2022-04-06 11:58:01.219 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:58:01.219 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:58:01.220 [main] INFO  calculator.Calculator - Calculating Natural log of 17.0
+2022-04-06 11:58:01.221 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.833213344056216
+2022-04-06 11:58:01.221 [main] INFO  calculator.Calculator - Calculating Natural log of 6.0
+2022-04-06 11:58:01.222 [main] INFO  calculator.Calculator - Result of naturalLog is : 1.791759469228055
+2022-04-06 11:58:01.222 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:58:01.223 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:58:01.223 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:58:01.224 [main] INFO  calculator.Calculator - Calculating Square root  of number 18.0
+2022-04-06 11:58:01.225 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.242640687119285
+2022-04-06 11:58:01.225 [main] INFO  calculator.Calculator - Calculating Square root  of number 32.0
+2022-04-06 11:58:01.226 [main] INFO  calculator.Calculator - Result of squareRoot is : 5.656854249492381
+2022-04-06 11:58:01.227 [main] INFO  calculator.Calculator - Calculating Square root  of number -16.0
+2022-04-06 11:58:01.227 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 11:58:01.227 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 11:58:01.228 [main] INFO  calculator.Calculator - Calculating Natural log of 14.0
+2022-04-06 11:58:01.229 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.6390573296152584
+2022-04-06 11:58:01.229 [main] INFO  calculator.Calculator - Calculating Natural log of 9.0
+2022-04-06 11:58:01.230 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.1972245773362196
+2022-04-06 11:58:01.232 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 11:58:01.233 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 11:58:01.233 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 11:58:01.234 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 11:58:01.234 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 11:58:01.235 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 11:58:01.235 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:58:01.235 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if num is not an integer
+2022-04-06 11:58:01.235 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 11:58:01.246 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 3.0
+2022-04-06 11:58:01.247 [main] INFO  calculator.Calculator - Result of power is : 8.0
+2022-04-06 11:58:01.247 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:58:01.248 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 11:58:01.261 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 2.0
+2022-04-06 11:58:01.262 [main] INFO  calculator.Calculator - Result of power is : 4.0
+2022-04-06 11:58:01.262 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 11:58:01.262 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 12:00:55.005 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 12:00:55.008 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 12:00:55.009 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 12:00:55.009 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 12:00:55.010 [main] INFO  calculator.Calculator - Calculating Square root  of number 9.0
+2022-04-06 12:00:55.011 [main] INFO  calculator.Calculator - Result of squareRoot is : 3.0
+2022-04-06 12:00:55.011 [main] INFO  calculator.Calculator - Calculating Square root  of number 16.0
+2022-04-06 12:00:55.011 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.0
+2022-04-06 12:00:55.012 [main] INFO  calculator.Calculator - Calculating Square root  of number -10.0
+2022-04-06 12:00:55.012 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 12:00:55.013 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 12:00:55.013 [main] INFO  calculator.Calculator - Calculating Natural log of 17.0
+2022-04-06 12:00:55.014 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.833213344056216
+2022-04-06 12:00:55.014 [main] INFO  calculator.Calculator - Calculating Natural log of 6.0
+2022-04-06 12:00:55.014 [main] INFO  calculator.Calculator - Result of naturalLog is : 1.791759469228055
+2022-04-06 12:00:55.015 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 12:00:55.015 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 12:00:55.015 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 12:00:55.016 [main] INFO  calculator.Calculator - Calculating Square root  of number 18.0
+2022-04-06 12:00:55.016 [main] INFO  calculator.Calculator - Result of squareRoot is : 4.242640687119285
+2022-04-06 12:00:55.016 [main] INFO  calculator.Calculator - Calculating Square root  of number 32.0
+2022-04-06 12:00:55.017 [main] INFO  calculator.Calculator - Result of squareRoot is : 5.656854249492381
+2022-04-06 12:00:55.017 [main] INFO  calculator.Calculator - Calculating Square root  of number -16.0
+2022-04-06 12:00:55.017 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN squareRoot of < 0
+2022-04-06 12:00:55.017 [main] INFO  calculator.Calculator - Result of squareRoot is : NaN
+2022-04-06 12:00:55.018 [main] INFO  calculator.Calculator - Calculating Natural log of 14.0
+2022-04-06 12:00:55.018 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.6390573296152584
+2022-04-06 12:00:55.018 [main] INFO  calculator.Calculator - Calculating Natural log of 9.0
+2022-04-06 12:00:55.018 [main] INFO  calculator.Calculator - Result of naturalLog is : 2.1972245773362196
+2022-04-06 12:00:55.019 [main] INFO  calculator.Calculator - Calculating Natural log of 0.0
+2022-04-06 12:00:55.019 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN log of <= 0
+2022-04-06 12:00:55.019 [main] INFO  calculator.Calculator - Result of naturalLog is : NaN
+2022-04-06 12:00:55.020 [main] INFO  calculator.Calculator - Result of factorial is: 6.0
+2022-04-06 12:00:55.020 [main] INFO  calculator.Calculator - Result of factorial is: 120.0
+2022-04-06 12:00:55.020 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if < 0
+2022-04-06 12:00:55.020 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 12:00:55.020 [main] ERROR calculator.Calculator - Number cannot be negative Case of NaN factorial if num is not an integer
+2022-04-06 12:00:55.021 [main] INFO  calculator.Calculator - Result of factorial is: NaN
+2022-04-06 12:00:55.028 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 3.0
+2022-04-06 12:00:55.028 [main] INFO  calculator.Calculator - Result of power is : 8.0
+2022-04-06 12:00:55.029 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 12:00:55.029 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 12:00:55.029 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 2.0 and 2.0
+2022-04-06 12:00:55.030 [main] INFO  calculator.Calculator - Result of power is : 4.0
+2022-04-06 12:00:55.030 [main] INFO  calculator.Calculator - Calculating Power  of two numbers 3.0 and 3.0
+2022-04-06 12:00:55.030 [main] INFO  calculator.Calculator - Result of power is : 27.0
+2022-04-06 12:01:18.063 [main] INFO  calculator.Calculator - Calculating Square root  of number 64.0
+2022-04-06 12:01:18.066 [main] INFO  calculator.Calculator - Result of squareRoot is : 8.0
