@@ -8,8 +8,7 @@ pipeline {
             steps {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId-PAT
-								git url: 'https://github.com/AnkD21-me/CalculatorUsingDevOps.git', branch: 'main',
-                 credentialsId: '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'
+								git url: 'https://github.com/AnkD21-me/CalculatorUsingDevOps.git', branch: 'main'
             }
         }
         stage('Maven Build') {
