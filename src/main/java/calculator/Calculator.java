@@ -143,7 +143,7 @@ public class Calculator {
 
                     //output = num1;
                     break;
-                /*
+
                 case '3':
                     System.out.print("Enter first number:");
                     num1 = scanner.nextDouble();
@@ -168,7 +168,7 @@ public class Calculator {
                     }
 
                     break;
-                */
+
                 default:
                     System.out.printf("You have entered wrong operator");
                     return;

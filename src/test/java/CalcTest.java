@@ -36,7 +36,7 @@ public class CalcTest {
 
 
     }
-    /*
+
     @Test
     public void naturalLogTruePositive(){
         assertEquals("Factorial of number for True positive", 2.833213344056216,cal.natural_Log(17), DELTA);
@@ -62,5 +62,5 @@ public class CalcTest {
         assertNotEquals("Factorial of number for False positive", 4.0,cal.power(2, 3), DELTA);
         assertNotEquals("Factorial of number for False positive", 5.0,cal.power(3,3), DELTA);
     }
-    */
+    
 }
