@@ -111,8 +111,8 @@ public class Calculator {
         char choice='y';
         do {
 
-
-            System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial \n 3. log \n 4. power ");
+            System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial");
+            //System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial \n 3. log \n 4. power ");
             System.out.println("Enter your choice(1-4)");
             char operator = scanner.next().charAt(0);
             //scanner.close();
@@ -143,7 +143,7 @@ public class Calculator {
 
                     //output = num1;
                     break;
-
+                /*
                 case '3':
                     System.out.print("Enter first number:");
                     num1 = scanner.nextDouble();
@@ -168,7 +168,7 @@ public class Calculator {
                     }
 
                     break;
-
+                */
                 default:
                     System.out.printf("You have entered wrong operator");
                     return;
