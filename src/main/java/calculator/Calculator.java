@@ -29,7 +29,7 @@ public class Calculator {
     }
 
     public double fact(double num)
-    {
+    { //factorial
         double output = 1;
         try{
             if(num < 0) {
