@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class Calculator {
 
     public double square_Root(double num)
-    {
+    { //square root
         double output = 0;
         try{
             logger.info("Calculating Square root  of number " + num);

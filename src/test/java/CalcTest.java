@@ -62,5 +62,5 @@ public class CalcTest {
         assertNotEquals("Factorial of number for False positive", 4.0,cal.power(2, 3), DELTA);
         assertNotEquals("Factorial of number for False positive", 5.0,cal.power(3,3), DELTA);
     }
-    
+
 }
