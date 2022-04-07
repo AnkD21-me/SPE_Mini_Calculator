@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class Calculator {
 
     public double square_Root(double num)
-    { //square root function
+    { //square root
         double output = 0;
         try{
             logger.info("Calculating Square root  of number " + num);
@@ -154,7 +154,7 @@ public class Calculator {
                         System.out.println(e);
                     }
                     break;
-
+                /*
                 case '4':
                     System.out.print("Enter first number:");
                     num1 = scanner.nextDouble();
@@ -168,7 +168,7 @@ public class Calculator {
                     }
 
                     break;
-
+                */
                 default:
                     System.out.printf("You have entered wrong operator");
                     return;
