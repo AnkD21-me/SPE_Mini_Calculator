@@ -154,7 +154,7 @@ public class Calculator {
                         System.out.println(e);
                     }
                     break;
-                /*
+
                 case '4':
                     System.out.print("Enter first number:");
                     num1 = scanner.nextDouble();
@@ -168,7 +168,7 @@ public class Calculator {
                     }
 
                     break;
-                */
+
                 default:
                     System.out.printf("You have entered wrong operator");
                     return;
