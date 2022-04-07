@@ -8,7 +8,8 @@ pipeline {
             steps {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId-PAT
-								git url: 'https://github.com/AnkD21-me/CalculatorUsingDevOps.git', branch: 'main'
+								git url: 'https://github.com/AnkD21-me/SPE_Mini_Calculator.git', branch: 'main'
+
             }
         }
         stage('Maven Build') {
