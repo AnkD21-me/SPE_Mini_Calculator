@@ -110,7 +110,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         char choice='y';
         do {
-            
+            //hook test
             System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial");
             //System.out.println("Scientific Calculator \n 1. sqrt \n 2. factorial \n 3. log \n 4. power ");
             System.out.println("Enter your choice(1-4)");
