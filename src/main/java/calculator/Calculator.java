@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Calculator {
-    //build test
+    
     public double square_Root(double num)
     {
         double output = 0;
