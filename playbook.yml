@@ -1,0 +1,8 @@
+---
+- name: Pull and Run docker image of ankd21/spe_calculator
+  hosts: all
+  tasks:
+    - name: Pull ankd21/spe_calculator
+      docker_image:
+        name: ankd21/spe_calculator
+        source: pull
