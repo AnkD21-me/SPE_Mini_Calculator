@@ -18,6 +18,14 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
+
+        tage('Build Docker Image') {
+                    steps {
+                        script {
+                            
+                        }
+                    }
+                }
         /*stage('Ansible Deploy') {
             steps {
                 //Ansible Deploy to remote server (managed host)
