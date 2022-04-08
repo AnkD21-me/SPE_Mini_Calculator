@@ -1,2 +1,1 @@
-[docker]
-172.17.0.2 ansible_ssh_pass=!23Jump21 ansible_ssh_user=ankd_ansible
+localhost 10.0.2.15 ansible_ssh_pass=!23Jump21 ansible_ssh_user=ankd_ansible
