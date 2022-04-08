@@ -19,10 +19,10 @@ pipeline {
             }
         }
 
-        tage('Build Docker Image') {
+        stage('Build Docker Image') {
                     steps {
                         script {
-                            
+
                         }
                     }
                 }
