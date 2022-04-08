@@ -112,8 +112,8 @@ public class Calculator {
         do {
             //hook test
 
-            System.out.println("\t\tScientific Calculator \n 1. Square Root \n 2. Factorial \n 3. Natural Log \n 4. Power \n5. Exit\n");
-            System.out.println("Enter your choice(1-4)");
+            System.out.println("\n\n\t\t\tScientific Calculator \n 1. Square Root \n 2. Factorial \n 3. Natural Log \n 4. Power \n 5. Exit\n");
+            System.out.println("Enter your choice(1-5)");
             char operator = scanner.next().charAt(0);
             //scanner.close();
             double output=0.0;
@@ -169,7 +169,7 @@ public class Calculator {
 
                     break;
                 case '5':
-                    System.out.print("\nTerminating Calculator\n");
+                    System.out.print("\n\t\t\tTerminating Calculator\n");
                     return;
                 default:
                     System.out.printf("Please enter correct choice\n");
