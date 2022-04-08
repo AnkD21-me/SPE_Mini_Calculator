@@ -1,4 +1,4 @@
-pipeline {
+/*pipeline {
     // The “agent” section configures on which nodes the pipeline can be run.
     // Specifying “agent any” means that Jenkins will run the job on any of the
     // available nodes.
@@ -26,12 +26,13 @@ pipeline {
                         }
                     }
                 }
-        /*stage('Ansible Deploy') {
+        stage('Ansible Deploy') {
             steps {
                 //Ansible Deploy to remote server (managed host)
                 ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml'
 
             }
-        }*/
+        }
     }
 }
+*/
