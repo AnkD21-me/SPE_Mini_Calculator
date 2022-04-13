@@ -11,8 +11,7 @@ pipeline {
         stage('Git Pull') {
             steps {
                 // Get code from a GitHub repository
-                
-								git url: 'https://github.com/AnkD21-me/SPE_Mini_Calculator.git', branch: 'main'
+                git url: 'https://github.com/AnkD21-me/SPE_Mini_Calculator.git', branch: 'main'
 
             }
         }
