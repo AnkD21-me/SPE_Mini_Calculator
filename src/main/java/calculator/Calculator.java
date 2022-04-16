@@ -6,124 +6,121 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Calculator {
-    //build image
-    public double square_Root(double num)
+    public double sqr_root(double no)
     {
-        double output = 0;
+        double result = 0;
         try{
-            logger.info("Calculating Square root  of number " + num);
-            if(num < 0){
-                output = Double.NaN;
+            logger.info("Calculating Square root  of number " + no);
+            if(no < 0){
+                result = Double.NaN;
                 throw new ArithmeticException("Case of NaN squareRoot of < 0");
             }
             else{
-                output = Math.sqrt(num);
+                result = Math.sqrt(no);
             }
         }catch(ArithmeticException err){
             logger.error("Number cannot be negative " + err.getMessage());
         }finally {
-            logger.info("Result of squareRoot is : " + output);
+            logger.info("Result of squareRoot is : " + result);
         }
 
-        return output;
+        return result;
     }
 
-    public double fact(double num)
+    public double factorial(double no)
     {
-        double output = 1;
+        double result = 1;
         try{
-            if(num < 0) {
-                output = Double.NaN;
+            if(no < 0) {
+                result = Double.NaN;
                 throw new ArithmeticException("Case of NaN factorial if < 0");
             }
-            if(num!=(int)num)
+            if(no!=(int)no)
             {
-                output = Double.NaN;
+                result = Double.NaN;
                 throw new ArithmeticException("Case of NaN factorial if num is not an integer");
             }
 
-            if(num == 0 || num == 1) return 1;
+            if(no == 0 || no == 1) return 1;
 
-            for(int i = 1; i <= num; i++){
-                output *= i;
+            for(int i = 1; i <= no; i++){
+                result *= i;
             }
         }
         catch(ArithmeticException err) {
             logger.error("Number cannot be negative " + err.getMessage());
         }
         finally {
-            logger.info("Result of factorial is: " + output);
+            logger.info("Result of factorial is: " + result);
         }
 
-        return output;
+        return result;
     }
 
-    public double natural_Log(double num) {
-        double output = 0;
+    public double nat_logarithm(double no) {
+        double result = 0;
         try{
-            logger.info("Calculating Natural log of " + num);
-            if(num <= 0){
-                output = Double.NaN;
+            logger.info("Calculating Natural log of " + no);
+            if(no <= 0){
+                result = Double.NaN;
                 throw new ArithmeticException("Case of NaN log of <= 0");
             }
             else{
-                output = Math.log(num);
+                result = Math.log(no);
             }
         }
         catch(ArithmeticException err){
             logger.error("Number cannot be negative " + err.getMessage());
         }
         finally {
-            logger.info("Result of naturalLog is : " + output);
+            logger.info("Result of naturalLog is : " + result);
         }
-        return output;
+        return result;
     }
 
-    public double power(double num1, double num2)
+    public double power(double no1, double no2)
     {
-        double output = 0;
-        if(num1==0.0&&num2==0.0)
+        double result = 0;
+        if(no1==0.0&&no2==0.0)
         {
-            output = Double.NaN;
+            result = Double.NaN;
             logger.info("0 power 0 is not defined");
-            return output;
+            return result;
         }
         try {
-            logger.info("Calculating Power  of two numbers " + num1 + " and " + num2);
-            output = Math.pow(num1, num2);
-            if(output==Double.NaN) {
+            logger.info("Calculating Power of two numbers " + no1 + " and " + no2);
+            result = Math.pow(no1, no2);
+            if(result==Double.NaN) {
                 throw new ArithmeticException("Power is not real");
             }
         }catch (ArithmeticException ae)
         {
             logger.error(ae.getMessage());
         }
-        logger.info("Result of power is : " + output);
-        return output;
+        logger.info("Result of power is : " + result);
+        return result;
     }
 
     private static final Logger logger = LogManager.getLogger(Calculator.class);
 
     public static void main(String[] args) {
-        double num1, num2;
-        Calculator calculator = new Calculator();
+        double no1, no2;
+        Calculator mini_calc = new Calculator();
         Scanner scanner = new Scanner(System.in);
-        char choice='y';
+        char option='y';
         do {
-            //hook test
-
             System.out.println("\n\n\t\t\tScientific Calculator \n 1. Square Root \n 2. Factorial \n 3. Natural Log \n 4. Power \n 5. Exit\n");
             System.out.println("Enter your choice(1-5)");
-            char operator = scanner.next().charAt(0);
+            char oper = scanner.next().charAt(0);
             //scanner.close();
-            double output=0.0;
+            double result=0.0;
 
-            switch (operator) {
+            switch (oper) {
                 case '1':
-                    System.out.print("Enter first number:");
-                    num1 = scanner.nextDouble();
+                    System.out.print("Enter number:");
+                    no1 = scanner.nextDouble();
                     try {
-                        output = calculator.square_Root(num1)   ;
+                        result = mini_calc.sqr_root(no1)   ;
                     }catch (Exception e)
                     {
                         System.out.println(e);
@@ -131,24 +128,24 @@ public class Calculator {
                     break;
 
                 case '2':
-                    System.out.print("Enter first number:");
-                    num1 = scanner.nextDouble();
-                    output = 1;
+                    System.out.print("Enter number:");
+                    no1 = scanner.nextDouble();
+                    result = 1;
                     try {
-                        output = calculator.fact(num1);
+                        result = mini_calc.factorial(no1);
                     }catch (Exception e)
                     {
                         System.out.println(e);
                     }
 
-                    //output = num1;
+                    //result = no1;
                     break;
 
                 case '3':
-                    System.out.print("Enter first number:");
-                    num1 = scanner.nextDouble();
+                    System.out.print("Enter number:");
+                    no1 = scanner.nextDouble();
                     try {
-                        output = calculator.natural_Log(num1);
+                        result = mini_calc.nat_logarithm(no1);
                     }catch (Exception e)
                     {
                         System.out.println(e);
@@ -157,11 +154,11 @@ public class Calculator {
 
                 case '4':
                     System.out.print("Enter first number:");
-                    num1 = scanner.nextDouble();
+                    no1 = scanner.nextDouble();
                     System.out.print("Enter second number:");
-                    num2 = scanner.nextDouble();
+                    no2 = scanner.nextDouble();
                     try {
-                        output = Math.pow(num1, num2);
+                        result = Math.pow(no1, no2);
                     }catch(Exception e)
                     {
                         System.out.println(e);
@@ -176,10 +173,10 @@ public class Calculator {
                     return;
             }
 
-            System.out.println("Output: " + output);
+            System.out.println("result: " + result);
             System.out.println("Press y to continue");
-            choice = scanner.next().charAt(0);
-        }while(choice=='y');
+            option = scanner.next().charAt(0);
+        }while(option=='y');
         scanner.close();
     }
 }
