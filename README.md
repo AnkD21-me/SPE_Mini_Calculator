@@ -6,3 +6,5 @@ A scientific calculator program with user menu driven operations
 - Factorial function - x !
 - Natural logarithm (base е ) - l n(x)
 - Power function - x b
+
+by Ankita Dutta - MT2021017
