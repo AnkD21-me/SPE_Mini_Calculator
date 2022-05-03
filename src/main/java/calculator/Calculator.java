@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Calculator {
     public double sqr_root(double no)
-    {   //square root created
+    {   //square root created-viva session
         double result = 0;
         try{
             logger.info("Calculating Square root  of number " + no);
